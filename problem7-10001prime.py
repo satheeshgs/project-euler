@@ -9,11 +9,12 @@ def isprime(num):
 
 def findnextprime(num):
     prime =num
-    while(not found):
+    i=1
+    while(i==1):
         prime=prime+1
         if(isprime(prime)==True):
             return(prime)
-            found = True
+            i=0
 p=2
 i=1
 while(i<10001):
