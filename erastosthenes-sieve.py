@@ -22,5 +22,5 @@ def sieveoferatosthenes(n):
     return(primearr)
 
 
-    arr=sieveoferatosthenes(2000000)
-    sum(arr)
+arr=sieveoferatosthenes(2000000)
+sum(arr)
