@@ -1,6 +1,6 @@
 def sieveoferatosthenes(n):
     #boolean array creation with all values initialized to 1
-    prime=[True for i in range(n+1)]
+    prime = [True for i in range(n+1)]
     #set the first prime number to a variable p
     p=2
     #define the terminating condition (p*p <=n)
